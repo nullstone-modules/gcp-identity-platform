@@ -1,0 +1,11 @@
+data "google_project" "this" {}
+
+locals {
+  project_id = data.google_project.this.project_id
+}
+
+resource "google_project_service" "identitytoolkit" {
+  service                    = "identitytoolkit.googleapis.com"
+  disable_dependent_services = false
+  disable_on_destroy         = false
+}

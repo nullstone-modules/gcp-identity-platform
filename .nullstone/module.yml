@@ -1,0 +1,16 @@
+org_name: nullstone
+name: gcp-identity-platform
+friendly_name: Google Identity Platform
+description: Configures Identity Platform for a Google Cloud project
+category: block
+subcategory: ""
+provider_types:
+    - gcp
+platform: identity-platform
+subplatform: ""
+type: ""
+appCategories: []
+is_public: true
+tool_name: opentofu
+include: []
+source_url: https://github.com/nullstone-modules/gcp-identity-platform
